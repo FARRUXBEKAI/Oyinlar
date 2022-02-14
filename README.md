@@ -1,2 +1,2 @@
-# O'zim qiziqqan O'yinlar
+# O'yinlar
 bu repositoryda ozim qiziqqan har xil oyinlarni yasaganman
