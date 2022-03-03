@@ -1,4 +1,12 @@
-from time import time,sleep
+# 27/02/2022
+
+# Python asoslari
+
+# Mavzu: "Brain up" o'yinini yasash
+
+# Muallif: Farrux Sotivoldiyev
+
+from time import time
 from random import randint,randrange
 from sekundomer import sekundomer
 
@@ -6,7 +14,9 @@ print("Assalomu alaykum 'Brain up' o'yinimizga xush kelibsiz")
 print("""O'yin shartlari:
 1.10 ta misol beriladi
 2.Har bir savol uchun 10 sekund vaqt """)
+
 input("O'yinni boshlash uchun hohlagan tugmangizni bosing")
+
 while True:
     javoblar = []
     korsatgich = 0
@@ -35,8 +45,10 @@ while True:
     print(f"Ko'rsatgich: {korsatgich*10} %")
     
     savol = input("Yana o'ynaysizmi? ha/yoq >>>")
-    print("3 sekunddan so'ng o'yin boshlanadi...")
-    sekundomer(3)
+    
     if savol == 'yoq':
         print("O'yin tugadi😊")
         break
+    elif savol =='ha':
+        print("3 sekunddan so'ng o'yin boshlanadi...")
+        sekundomer(3)

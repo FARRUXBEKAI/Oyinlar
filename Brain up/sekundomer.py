@@ -1,4 +1,3 @@
-import re
 import time
 
 def sekundomer(sekund):
@@ -10,4 +9,3 @@ def sekundomer(sekund):
         sekund -= 1
     print("Boshlang!")
     
-
